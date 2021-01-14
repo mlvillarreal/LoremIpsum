@@ -1,18 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css" type="text/css">
+    <title>Composition II in Red, Blue, and Yellow</title>
+  </head>
 
-anhattan Zoo
-Zookeeper Intern Onboarding:
-Meal Guidelines
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="row">
+                    <div id="a" class="col-12">
+                        <!-- Piece A -->A
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="b"  class="col-12">
+                        <!-- Piece B --> B
+                    </div>
+                </div>
+            </div>
+            <div id="c" class="col-9">
+                <!-- Piece C --> C
+            </div>
+        </div>
+        <div class="row">
+            <div id="d" class="col-3">
+                <!-- Piece D --> D
+            </div>
 
-1. California Sea Lions
-Meal: 40 lbs. salmon, 40 lbs. herring, 20 lbs. Northern Anchovy, 20 lbs. Octupus
-Times: 6:00 am, 9:00 am, 12:00 pm, 3:00 pm, 6:00 pm, 9:00 pm
-Directions: Leave buckets for trainer at 12:00 pm and 3:00 pm, otherwise, follow standard protocol.
+            <div id="e" class="col-8">
+                <!-- Piece E -->E
+            </div>
 
-2. Ring-tailed Lemurs
-Meal: 10 bags Tamarind pods
-Times: 6:00 am, 3:00 pm, 8:00 pm
-Directions: Empty bags over meadow area during designated times
-3. Long-Tailed Chinchillas
-Meal: 1 bag animal pellets, 1 bag dried fruit, 1/2 bag cashews, 5 carrots, 3 stalks kale
-Times: 8:00 am
-Directions: disperse contents throughout Chinchilla habitat
+            <div class="col-1">
+                <div class="row">
+                    <div id="f" class="col">
+                        <!-- Piece F -->F
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="g" class="col">
+                        <!-- Piece G -->G
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
